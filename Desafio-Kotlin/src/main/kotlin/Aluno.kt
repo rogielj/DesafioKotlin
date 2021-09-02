@@ -10,12 +10,12 @@ class Aluno
             return (other is Aluno && other.codAluno == this.codAluno)
         }
 
-        init {
-
-            if (codAluno < 0) {
+    init {
+            if (codAluno == 0){
                 println("*** Codigo do Aluno não pode ser um Numero negativo ***\n")
             }
-        }
+    }
+
 
 //    fun verificarAlunos (): Int {
 //        return codAluno
