@@ -50,7 +50,7 @@ fun main() {
     processo.matricularAlunoEmUmCurso(1237,20001,matriculaFS3)
 
     processo.imprimirMatriculas()
-//    processo.alocarProfessores(20001,152,456)
+    processo.alocarProfessores(20001,152,456)
 
 
 //    matriculaFS1.criarMatricula(matriculaFS1)

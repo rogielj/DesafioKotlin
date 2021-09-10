@@ -9,7 +9,7 @@ class DigitalHouseManager {
     val listaDeCurso = mutableListOf<Curso>()
     val listaDeMatriculas = mutableListOf<Matricula>()
 
-    fun registrarCurso( // Registrando aluno no curso
+    fun registrarCurso( // Registrando Curso
         curso: Curso
     ) {
         listaDeCurso.add(curso)
@@ -96,7 +96,7 @@ class DigitalHouseManager {
         }
     }
     // Encontrar o professor titular e adjunto na lista de professores.
-    // Alocar ambos professores ao curso.
+    // Alocar ambos professores aos cursos.
     fun alocarProfessores(
         codigoCurso: Int, codigoProfessorTitular: Int,
         codigoProfessorAdjunto: Int
